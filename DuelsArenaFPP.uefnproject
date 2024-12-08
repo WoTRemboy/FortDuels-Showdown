@@ -1,0 +1,45 @@
+{
+	"fileVersion": 15,
+	"versionSuffix": "",
+	"title": "DuelsArenaFPP",
+	"description": "",
+	"keyArt": "",
+	"docsUrl": "",
+	"kind": "Island",
+	"compatibilityVersion": "33.00",
+	"requiredRedirectorStartingVersion": "33.00.38504598",
+	"editorPermissions": [],
+	"epicApp": "",
+	"sortPriority": 0,
+	"featureSet": "",
+	"plugins": [
+		{
+			"name": "DuelsArenaFPP",
+			"bIsRoot": true,
+			"bIsPublic": false
+		}
+	],
+	"dataSets":
+	{
+		"matchmaking":
+		{
+			"maxPlayers": 16,
+			"maxTeamCount": 1,
+			"maxTeamSize": 16,
+			"maxSocialPartySize": 16,
+			"allowJoinInProgress": true,
+			"allowSquadFillOption": false,
+			"islandQueuePrivacy": "Unrestricted",
+			"version": 1
+		}
+	},
+	"bindings":
+	{
+		"projectId": "73782f89-4da5-6545-eaf2-708f07987e72",
+		"projectVersePath": "",
+		"modules":
+		{
+			"DuelsArenaFPP": "01d2b8e8-465c-c2a8-b1fc-748ff8dda810"
+		}
+	}
+}
